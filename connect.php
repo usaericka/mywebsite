@@ -20,7 +20,7 @@ if(isset($_POST['submit'])) {
     $Message = $_POST['message'];
 
 
-    $query = "INSERT INTO feedback (`Name`, `Email`, `Message`) VALUES ('$Name', '$Email', '$Message')";
+    $query = "INSERT INTO feedback (`name`, `email`, `message`) VALUES ('$Name', '$Email', '$Message')";
     $query_run = mysqli_query($connection, $query);
 
 if ($query_run)

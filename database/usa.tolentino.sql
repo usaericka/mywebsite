@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 22, 2023 at 10:02 PM
+-- Generation Time: Mar 28, 2023 at 08:53 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 8.2.0
 
@@ -28,17 +28,17 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `feedback` (
-  `ID` int(11) NOT NULL,
-  `Name` varchar(255) NOT NULL,
-  `Email` varchar(40) NOT NULL,
-  `Message` text NOT NULL
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `email` varchar(40) NOT NULL,
+  `message` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Dumping data for table `feedback`
 --
 
-INSERT INTO `feedback` (`ID`, `Name`, `Email`, `Message`) VALUES
+INSERT INTO `feedback` (`id`, `name`, `email`, `message`) VALUES
 (35, 'dsa', 'dsa@gmail.com', 'dasd'),
 (36, 'dsa', 'dsa@gmail.com', 'dasd'),
 (46, '', '', ''),
@@ -84,7 +84,15 @@ INSERT INTO `feedback` (`ID`, `Name`, `Email`, `Message`) VALUES
 (86, 'mary', 'dsa@gmail.com', ' laskdds'),
 (87, 'Ericka Faye Tolentino', 'dsa@gmail.com', ' Hello'),
 (88, 'Jerhel', 'dsa@gmail.com', ' lasda'),
-(89, 'Ericka Faye Tolentino', 'dsa@gmail.com', ' aksndkadsad ');
+(89, 'Ericka Faye Tolentino', 'dsa@gmail.com', ' aksndkadsad '),
+(90, 'Max', 'dsa@gmail.com', ' snkasnc '),
+(91, 'Max', 'dsa@gmail.com', ' snkasnc '),
+(92, 'as', 'dsa@gmail.com', ' sa'),
+(93, 'as', 'dsa@gmail.com', ' sa'),
+(94, 'as', 'dsa@gmail.com', ' dasdwds'),
+(95, 'as', 'dsa@gmail.com', ' dasdwds'),
+(96, 'dasd', 'dsd@gmail.com', ' dsada  wd'),
+(97, 'dasd', 'dsd@gmail.com', ' dawdas');
 
 --
 -- Indexes for dumped tables
@@ -94,7 +102,7 @@ INSERT INTO `feedback` (`ID`, `Name`, `Email`, `Message`) VALUES
 -- Indexes for table `feedback`
 --
 ALTER TABLE `feedback`
-  ADD PRIMARY KEY (`ID`);
+  ADD PRIMARY KEY (`id`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -104,7 +112,7 @@ ALTER TABLE `feedback`
 -- AUTO_INCREMENT for table `feedback`
 --
 ALTER TABLE `feedback`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=90;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=98;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
