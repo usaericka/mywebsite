@@ -37,9 +37,9 @@
                     ?>
                         <tr>
                             <th scope="row"><?=$i?></th>
-                            <td><?=$rows['Name'];?></td>
-                            <td><?php echo $rows['Email']; ?></td>
-                            <td><?php echo $rows['Message']; ?></td>
+                            <td><?=$rows['name'];?></td>
+                            <td><?php echo $rows['email']; ?></td>
+                            <td><?php echo $rows['message']; ?></td>
                         </tr>
                         <?php } ?>
                     </tbody>
