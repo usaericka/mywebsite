@@ -1,4 +1,4 @@
-<?php require_once ("../pages/connect.php"); 
+<?php require_once ("connect.php"); 
 
 if(isset($_GET['id'])) {
 
