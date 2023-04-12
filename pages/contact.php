@@ -53,14 +53,14 @@
             </div>
 
             <div class="row mb-3">
-               <label class="col-sm-2 col-form-label"> Message</label>
+               <label class="col-sm-2 col-form-label">Message</label>
                <div class="col-sm-10">
                   <textarea type="form-text" name="message" class="form-control" id="message"> </textarea>
                </div>
             </div>
             <div class="text-center py-3">
-               <button type="submit" name="submit_btn" class="btn border-light text-light mx-1">Submit</button>
-               <a href="../pages/index.php" class="btn border-light text-light mx-1">Back</a>
+               <button type="submit" name="submit_btn" class="btn border-light text-light mx-1">SUBMIT</button>
+               <a href="../pages/index.php" class="btn border-light text-light mx-1">BACK</a>
             </div>
          </div>
       </form>

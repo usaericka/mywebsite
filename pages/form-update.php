@@ -15,9 +15,9 @@
 <body>
 
 <div class="container mt-4 bg-dark">
-    <h2 class="display-5 text-center text-white mt-5 mb-5">Edit User</h2>
+    <h2 class="display-5 text-center text-white mt-5 mb-5">EDIT USER</h2>
         <form action="update.php" class="text-start mx-5" method="POST">
-        <input type="text" name="id" class="mb-4" value="<?=$row['id'];?>">
+        <input type="hidden" name="id" class="mb-4" value="<?=$row['id'];?>">
             <div class="modal-body">
                     <div class="row mb-5">
                         <label class="col-sm-2 col-form-label text-white">Name</label>
@@ -35,14 +35,14 @@
                     </div>
 
                     <div class="row mb-3">
-                        <label class="col-sm-2 col-form-label text-white" for="message">Message</label>
+                        <label class="col-sm-2 col-form-label text-white">Message</label>
                         <div class="col-sm-10">
-                            <textarea type="text" name="message" class="form-control" id="message" value="<?=$row['message'];?>"></textarea>
+                            <textarea name="message" id="message" class="form-control"><?=$row['message'];?></textarea>
                         </div>
                     </div>
 
                     <div class="text-center py-3 mt-5">
-                        <button type="submit" name="update_btn" class="btn btn-primary text-light mx-3">Update</button>
+                        <button type="submit" name="update_btn" class="btn btn-primary text-light mx-3">UPDATE</button>
                             <a href="../pages/form-view.php" class="btn btn-danger text-light">CANCEL</a>
                     </div>
             </div>

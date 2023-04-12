@@ -15,7 +15,7 @@
 </head>
 <body>
     <div class="container">
-            <h2 class="display-5 text-center mb-3 mt-4">Recipient</h2><hr>
+            <h2 class="display-5 mb-3 mt-4">INBOX</h2><hr>
             <?php if(mysqli_num_rows($result)) {?>
                 <table class="table table-bordered table-dark table-hover">
                     <thead>
@@ -24,7 +24,7 @@
                             <th scope = "col">Name</th>
                             <th scope = "col">Email</th>
                             <th scope = "col">Message</th>
-                            <th colspan="2">Actions</th>
+                            <th colspan="3">Actions</th>
                         </tr>
                     </thead>
 
