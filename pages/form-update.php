@@ -43,7 +43,7 @@
 
                     <div class="text-center py-3 mt-5">
                         <button type="submit" name="update_btn" class="btn btn-primary text-light mx-3">UPDATE</button>
-                            <a href="../pages/form-view.php" class="btn btn-danger text-light">CANCEL</a>
+                            <a href="form-view.php" class="btn btn-danger text-light">CANCEL</a>
                     </div>
             </div>
         </form>
