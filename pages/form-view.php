@@ -24,7 +24,7 @@
                             <th scope = "col">Name</th>
                             <th scope = "col">Email</th>
                             <th scope = "col">Message</th>
-                            <th colspan="3">Actions</th>
+                            <th colspan ="3">Actions</th>
                         </tr>
                     </thead>
 
@@ -39,7 +39,8 @@
                                     <td><?= $row['name']; ?></td>
                                     <td><?php echo $row['email']; ?></td>
                                     <td><?php echo $row['message']; ?></td>
-                                    <td><a href="form-update.php?id=<?=$row['id'];?>" class="btn btn-primary">EDIT</a></td>
+                                    <td><a href="view-details.php?id=<?=$row['id'];?>" class="btn btn-primary">VIEW</a></td>
+                                    <td><a href="form-update.php?id=<?=$row['id'];?>" class="btn btn-success">EDIT</a></td>
                                     <td><a href="delete.php?id=<?=$row['id'];?>" class="btn btn-danger">DELETE</a></td>
                                 </tr>
                                 <?php } ?>

@@ -14,7 +14,7 @@ if (isset($_POST))
 
    if ($result) {
       echo '<script> alert ("FORM SUBMITTED"); </script>';
-      header('location: ../pages/index.php');
+      header('location: form-view.php');
    } else {
       echo mysqli_error($connection);
    }
